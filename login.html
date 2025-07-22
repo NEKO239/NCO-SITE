@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Вход | N.C.O</title>
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    function checkPassword() {
+      const pass = document.getElementById("password").value;
+      if (pass === "2389") {
+        window.location.href = "secret.html"; // Переход на защищённую страницу
+      } else {
+        alert("Неверный пароль.");
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>NEKO COMBATANT OPERATORS</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="sotrudniki.html">Сотрудники</a>
+      <a href="zayavki.html">Заявки</a>
+      <a href="chsf.html">ЧСФ</a>
+      <a class="active" href="login.html">Вход</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>🔒 Доступ к закрытому разделу</h2>
+    <p>Введите пароль для доступа к защищённой информации.</p>
+    <input type="password" id="password" placeholder="Пароль" style="padding: 10px; font-size: 16px;" />
+    <button onclick="checkPassword()" style="padding: 10px 20px; margin-left: 10px; background-color: #333; color: #fff; border: none;">Войти</button>
+  </main>
+
+  <footer>
+    &copy; 2025 N.C.O | Все права защищены
+  </footer>
+</body>
+</html>
