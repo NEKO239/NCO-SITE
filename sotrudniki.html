@@ -1,38 +1,75 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Сотрудники N.C.O</title>
-    <style>
-        body { font-family: Arial, sans-serif; background: #111; color: #fff; padding: 20px; }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        th, td { border: 1px solid #444; padding: 10px; text-align: center; }
-        th { background-color: #222; }
-        tr:nth-child(even) { background-color: #1a1a1a; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Сотрудники | N.C.O</title>
+  <style>
+    body {
+      background-color: #101010;
+      color: white;
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      padding: 10px 20px;
+      border: 1px solid white;
+      border-radius: 5px;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 28px;
+    }
+    table {
+      width: 90%;
+      margin: 30px auto;
+      border-collapse: collapse;
+      background-color: #1b1b1b;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #2c2c2c;
+    }
+    tr:hover {
+      background-color: #2a2a2a;
+    }
+  </style>
 </head>
 <body>
-	<header>
-<h1>Список сотрудников</h1>
-<nav><a href='index.html'>Главная</a></nav>
-    <h1>Список сотрудников NEKO COMBATANT OPERATORS</h1>
-    <table>
-        <tr>
-            <th>№</th>
-            <th>Имя сотрудника</th>
-            <th>Возраст</th>
-            <th>Личный номер</th>
-            <th>Должность</th>
-        </tr>
-        <tr><td>1</td><td>neko_239</td><td>20</td><td>5</td><td>Командир N.C.O</td></tr>
-        <tr><td>2</td><td>rutyshka</td><td>16</td><td>20</td><td>Зам. Командира N.C.O</td></tr>
-        <tr><td>3</td><td>ctalker4589</td><td>12</td><td>13</td><td>Рядовой N.C.O</td></tr>
-        <tr><td>4</td><td>men_fish239</td><td>13</td><td>11</td><td>Оперативник N.C.O</td></tr>
-        <tr><td>5</td><td>n_murderdrone</td><td>13</td><td>16</td><td>Оперативник N.C.O</td></tr>
-        <tr><td>6</td><td>serega0467</td><td>12</td><td>14</td><td>Стажер N.C.O</td></tr>
-        <tr><td>7</td><td>c17h19no5</td><td>17</td><td>1</td><td>Рядовой N.C.O</td></tr>
-        <tr><td>8</td><td>blacki7882</td><td>15</td><td>9</td><td>Стажер N.C.O</td></tr>
-    </table>
-</body>
-</html>
+  <header>
+    <nav>
+      <a href="index.html">Главная</a>
+    </nav>
+  </header>
+
+  <h1>Список сотрудников N.C.O</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Имя</th>
+        <th>Возраст</th>
+        <th>Должность</th>
+        <th>Личный номер</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>neko_239</td><td>20</td><td>Командир</td><td>05</td></tr>
+      <tr><td>rutyshka</td><td>16</td><td>Зам. Командира</td><td>20</td></tr>
+      <tr><td>ctalker4589</td><td>12</td><td>Рядовой N.C.O</td><td>13</td></tr>
+      <tr><td>men_fish239</td><_
